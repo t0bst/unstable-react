@@ -96,20 +96,35 @@ export default function App() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="hero">
-        <div className="hero-overlay"></div>
-        <div className="container hero-content">
-          <div className="hero-logo">
-            <img src="/assets/logo.png" alt="Unstable States Dollar" />
-          </div>
-          <h1 className="hero-title">Unstable States Dollar</h1>
-          <p className="hero-subtitle">The most unpredictable meme coin on Solana</p>
-          <div className="hero-buttons">
-            <a href="#buy" className="btn btn-primary">Buy USD</a>
-            <a href="#community" className="btn btn-secondary">Join Community</a>
-          </div>
-        </div>
-      </section>
+      <section
+  id="home"
+  className="hero"
+  style={{
+    backgroundImage: "url('/assets/bg-abstract.png')",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+  }}
+>
+  <div className="hero-overlay" />
+  <div className="hero-content">
+    <div className="hero-logo">
+      <img src="/assets/logo.png" alt="$USD logo" />
+    </div>
+    <h1 className="hero-title">Unstable States Dollar</h1>
+    <p className="hero-subtitle">
+      The most unpredictable meme coin on Solana
+    </p>
+    <div className="hero-buttons">
+      <a href="#howtobuy" className="btn btn-primary">
+        Buy USD
+      </a>
+      <a href="#community" className="btn btn-secondary">
+        Join Community
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* About Section */}
       <section id="about" className="section about">
