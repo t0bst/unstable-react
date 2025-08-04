@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/unstable-react/static/css/main.1bdfa2f0.css",
+    "main.js": "/unstable-react/static/js/main.da6301d1.js",
+    "index.html": "/unstable-react/index.html",
+    "main.1bdfa2f0.css.map": "/unstable-react/static/css/main.1bdfa2f0.css.map",
+    "main.da6301d1.js.map": "/unstable-react/static/js/main.da6301d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bdfa2f0.css",
+    "static/js/main.da6301d1.js"
+  ]
+}
